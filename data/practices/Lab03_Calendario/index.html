@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8"></meta>
+		<title>Calendario</title>
+		<link rel="stylesheet" href="style/main.css" >
+		<script src="scripts/calendario.js"></script>
+	</head>
+	<!--BODY-->
+	<body>
+		<h1>Calendario Felipe Ovares</h1>
+		<br>
+		<div id="calendar" class="calendar">
+			
+			<div id="mainBox" class="mainBox">
+				<div id="calHeader" class="calHeader">
+					<div id="prevsMonth" class="inlineD topButton noMargin" onclick="mesantes()"><button id="prevMonth" class="month"></button></div>
+					<div id="currentsMonth" class="inlineD topButton noMargin"><button id="currentMonth" class="monthCenter"></button></div>
+					<div id="nextsMonth" class="inlineD topButton noMargin" onclick="mesdespues()"><button id="nextMonth" class="month"></button></div>
+				</div>
+				<div id="daysBox">
+					<table id="daysTable">
+						<tr id="f0">
+							<th></th><th></th><th></th><th></th><th></th><th></th><th></th>
+						</tr>
+						<tr id="f1">
+							<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+						</tr>
+						<tr id="f2">
+							<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+						</tr>
+						<tr id="f3">
+							<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+						</tr>
+						<tr id="f4">
+							<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+						</tr>
+						<tr id="f5">
+							<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+						</tr>
+						<tr id="f6">
+							<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+						</tr>
+					</table>
+				</div>
+				<div id="todayDate" class="center todayDate"><b>Today:<b>
+				</div>
+				<div id="searchDay" onchange="updateDate()" class="center searchDay">
+					<form name="buscar">
+						<i>Day:</i><input id="dayNumSearch" type="number" min="1" max="31"></input>
+						<i>Month:</i><input id="monthNumSearch" type="number" min="1" max="12"></input>
+						<i>Year:</i><input id="yearNumSearch" type="number" min="1970" max="2020"></input>
+						<input name="buscaanno" type="hidden"></input>
+					</form>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>
