@@ -1,0 +1,48 @@
+details.homework{
+	width : 70%;
+	background-image: linear-gradient(rgba(240,240,255,0.7), rgba(230,230,245,0.7));
+	margin-left: 5px;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+summary.homeworkSummary{
+	vertical-align: text-top;
+	font-family: "Tahoma", sans-serif;
+	background-image: linear-gradient(rgba(220,240,255,1), rgba(220,240,255,0.1));
+	border-bottom: solid;
+	border-bottom-color: #aaaabb;
+}
+
+embed.textFile{
+	width: 90%;
+	text-align: center;
+	max-height: 50vw;
+	background-color: rgba(250,250,255,1);
+	resize: both;
+}
+
+.downloadButton{
+	width: 150px;
+	height: 30px;
+	display: block;
+	background-color: DodgerBlue;
+	border: none;
+	color: white;
+	font-size: 18px;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+.downloadButton:hover {
+  background-color: RoyalBlue;
+}
+
+.smallIcon{
+	width:auto;
+	height:80%;
+	float:right;
+}
+
+.padding5px{
+	padding:5px;
+}

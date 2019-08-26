@@ -1,0 +1,30 @@
+div.profileSummary{
+	width : 13%;
+	height : 100%;
+	float: right;
+	position: fixed;
+	left: 85%;
+	top:0%;
+	background-color: #e3f3f3aa;
+	color: white;
+	font-size: 17px;
+	margin-left: 2%;
+}
+
+div.profileInfo{
+	font-size: 17px;
+	color: black;
+	display: block;
+	margin-left:2%;
+	margin-right: auto;
+}
+
+img.profile {
+	display: block;
+	padding-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	width : 95%;
+	height : auto;
+	background-color : rgba(0,0,0,0);
+}

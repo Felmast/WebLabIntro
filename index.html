@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Activity Repository</title>
+		<link rel="stylesheet" href="style/profile.css" >
+		<link rel="stylesheet" href="style/main.css" >
+		<script src="scripts\movePage.js"></script>
+	</head>
+	<!--BODY-->
+	<body style="overflow-x:hidden;">
+		<header>
+			<div class="menu">
+				<nav style="height:100%;" id="navMenu">
+						<button class="itemHome" id="navButton0" onclick="changeViewPort(0)"><img class="homeIcon" src="images/HomeIcon.svg"></button>
+						<button class="item" id="navButton1" onclick="changeViewPort(1)"><p>Practicas</p></button>
+						<button class="item" id="navButton2" onclick="changeViewPort(2)"><p>Tareas</p></button>
+						<button class="item" id="navButton3" onclick="changeViewPort(3)"><p>Proyectos</p></button>
+				</nav>
+			</div>
+			<div class="profileSummary">
+				<img src="images/Icon5S.png" class="profile" alt="Profile picture" />
+				<div class="profileInfo">
+					<h3>Felipe Ovares Chinchilla</h3>
+					<h5>2017169932</h5>
+					<h6>
+						felmastpromclane<wbr>@outlook.com</wbr>
+						<br>
+						85138061
+					</h6>
+				</div>
+			</div>
+		</header>
+		<img src="images/bg1.png" class="bgImage">
+		<div id="mainContainer" class="mainContainer">
+			<embed id="page0" class="pageContainer" src="resumen.html">
+			<embed id="page1" class="pageContainer" src="practicas.html">
+			<embed id="page2" class="pageContainer" src="tareas.html">
+			<embed id="page3" class="pageContainer" src="proyectos.html">
+		</div>
+	</body>
+</html>
