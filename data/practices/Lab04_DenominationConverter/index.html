@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Converter</title>
+		<link rel="stylesheet" href="style/main.css" >
+		<link rel="stylesheet" href="style/dropdowns.css" >
+		<script src="scripts/converter.js"></script>
+	</head>
+	<!--BODY-->
+	<body>
+		<h1>Covertidor monetario Felipe Ovares</h1>
+		
+		
+		
+		<div id="mainConverterBox" class="mainConverterBox" >
+			<div id="converter" class="converter">
+				<!--Table is ordered by |Currency name|Acronym|equivalency to current|-->
+				<div id="selectMain">
+					<b>Convert from:</b>
+					<div class="dropdownCurrency">
+						<span>Select Currency</span><img src="images/downArrow.svg" class="itemImg" style="float:right;">
+						<div id="mainDropdown" class="dropdownCurrency-content">
+						</div>
+					</div>
+				</div>
+				<table id="conversionTableHead" class="conversionTable">
+					<tr class="tableHeader">
+						<th id="mainCurrency" ></th> <th id="acronym"></th>	<th id="currentRate"><input id="currentInput" type="number" step="0.01" onchange="updateValues()" min="0" style="font-size:20px;"></input></th>
+					</tr>
+				</table>
+				<br>
+				<div class="center width"><img src="images/rotaryArrows.png"></div>
+				
+				<div id="tableControls" class="inlineD">
+					<div class="inlineD"><b>To:</b></div>
+					<button onclick="clearTable()" class="floatRight simpleButton">Clear</button>
+					<button onclick="addAllCurrencies()" class="floatRight simpleButton">Add All</button>
+				</div>
+				<table id="conversionTable" class="conversionTable">
+					<tr>
+						<th>Currency</th><th>Code</th><th>Rate</th><th>Conversion</th>
+					</tr>
+					<tr	id="addCurrency">
+						<td>Add:<select id="tableDropdown" onchange="addCurrencyFromList()">
+							</select>
+						</td><td></td><td></td><td></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		
+		<script>
+			load();
+		</script>
+	</body>
+</html>

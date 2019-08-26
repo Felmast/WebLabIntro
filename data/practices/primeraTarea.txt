@@ -1,0 +1,102 @@
+HTML:
+<body>: Define el inicio de la pagina web, donde todo el contenido visual se encuentra.
+<header>: Tag que se localiza al tope de la pagina.
+<a href="link">: Encargada de hacer que el contenido de esta tenga un hipervinculo a otras paginas web.
+<br>: Una simple nueva linea.
+<div>: Define una nueva seccion del documento, es un contenedor que puede tener formato y otros contenedores dentro.
+<embed>: Incluye un archivo o aplicacion dentro de la pagina.
+<footer>: Tag que se encuentra al fondo de la pagina, usado para informacion extra.
+<h1 - h6>: Indicadores de titulos.
+<html>: La base del documento de pagina web.
+<img>: Inserta una imagen dada una fuente.
+<ul>/<ol> + <li>: Para construir listas.
+<p>: Define un parrafo.
+<script>: Permite la carga o escritura de un codigo.
+<style>: Permite cargar o escribir codigo css para el estilo del documento.
+<select>/<option>: Para crear listas de selección tipo "dropdown".
+
+HTML5:
+<bdi>: Permite diferente procesamiento dentro de un texto.
+<details>: Tag para crear un cajon retraible.
+<summary>: Utilizado dentro de details para un texto visible al tope.
+<dialog>: Abre una ventana aparte.
+<main>: Define el contenido unico del documento.
+<meter>/<progress>: Dibuja una barra porcentual.
+<time>: Define una fecha:
+<article>: Define un articule en el documento.
+<aside>: Contenido al lado de la pagina.
+<figure>: Un contenido que no afecta el orden de la pagina.
+<figcaption>: Informacion sobre una figura.
+<mark>: Resalta un texto.
+<nav>: Espacio para colocar links de navegacion.
+<rp>: Define que hacer en caso de que el browser no soporte Ruby.
+<ruby>: Define que hacer en caso de que el browser soporte Ruby.
+
+CSS3:
+color: Define el color del texto. Rango  (rgba(),#ffffff, por nombre)
+	Uso: Fondo negro con letra blanca.
+
+background: Define el fondo, sea imagen, gradiente o color. Rango (color, gradient, image).
+	Uso: Un fondo con transparencia.
+
+border: El estilo, color y otros datos del borde de un contenerdor. Rango  (tamaño, color, estilo(dotted solid double dashed)).
+	Uso: Resaltar el espacio de un elemento.
+
+font-family: Indica cual fuente y tamaño usar. Rango  (tamaño, familia y nombre de la fuente).
+	Uso: Usar otra fuente que no sea Times New Roman.
+
+margin: Define el espacio extra exterior del contenedor. Rango  (px, %, vw)
+	Uso: Mover un elemento de posicion.
+
+padding: Define el espacio extra interior del contenedor. Rango  (px, %, vw)
+	Uso: Acomodar texto dentro de un cuadro.
+
+width/height: Define las dimensiones del contenedor. Rango  (px, %, vw)
+	Uso: Definir el tamaño de una imagen.
+
+text-align: Indica como se debe ubicar el texto. Rango (center, left, right, top, bottom)
+	Uso: Centrar el texto en la pantalla.
+
+float: Indica a que posicion se va a mover el contenedor. Rango (center, left, right, top, bottom)
+	Uso: Ubicar un contenedor a la izquierda.
+
+vertical-align: Como se posicionan verticalmente los elementos dentro del contenedor. Rango (top, middle, bottom)
+	Uso: Ubicar un texto en el centro de un contenedor, verticalmente.
+
+display: De que forma se ordena el contenedor con respecto a los demas. Rango (inline, block, grid)
+	Uso: Crear un "slideshow" de imagenes.
+
+overflow: Define que sucede cuando el contenido no cabe dentro del contenedor. Rango (hidden, visible, scroll, auto)
+	Uso: Ocultar imagenes para animarlas despues.
+
+animation: Un wrapper para todos los atributos de animacion css. Rango (nombre, tiempo, repeticion)
+	Uso: Movimiento de elementos.
+
+column: Usado para declarar columnas de texto. Rango (ancho, cantidad de columnas)
+	Uso: Separar texto en un articulo.
+
+grid: Crea una tabla de filas y columnas. Rango (columnas,filas, ordenC, ordenF)
+	Uso: Crear una tabla de datos.
+
+left, right, top, bottom: Define la posicion de un elemento en la pantalla. Rango  (px, %, vw)
+	Uso: ubicar un elemento donde se necesita.
+
+opacity: Define la transparencia del elemento. Rango (0->1)
+	Uso: Definir un "overlay" en un contenedor.
+
+outline: Encima del borde, el estilo, color y otros datos del outline de un contenerdor. Rango  (tamaño, color, estilo(dotted solid double dashed)).
+	Uso: Dar mas estilo a un contenedor.
+
+resize: Define si el elemento permite que el usuario cambie el tamaño. Rango (horizontal, vertical, both, auto)
+	Uso: Expandir una imagen o caja de entrada de texto.
+
+tab-size: Define el tamaño de un character "tab".Rango  (px, %, vw)
+	Uso: Definir una sangria o espacio para una lista.
+
+
+
+
+Referencias:
+w3schools, HTML Reference: 	https://www.w3schools.com/html/default.asp
+w3schools, HTML5 New Elements:	https://www.w3schools.com/html/html5_new_elements.asp
+w3schools, CSS Reference:	https://www.w3schools.com/cssref/default.asp
