@@ -1,0 +1,124 @@
+body{
+	font-family: "Tahoma", sans-serif;
+}
+
+.mainConverterBox{
+	width:600px;
+	height:650px;
+	overflow:auto;
+	background: #fafaff;
+	border: solid 1px rgba(250,250,250);
+}
+
+tr{
+	width: 100%;
+	height: 40px;
+	background: #f1f1ff;
+}
+
+.tr2{
+	background: #fdfdff;
+}
+
+.tr1{
+	background: #cddeef;
+}
+
+.tableHeader > th{
+	background: #00ff5533;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+.conversionTable{
+	width:100%;
+	border: solid 1px rgba(250,250,255);
+	height: auto;
+}
+
+.simpleButton{
+	border: solid 1px rgba(230,230,230);
+	background: rgba(200,200,200);
+	width:auto;
+	height:25px;
+}
+.simpleButton:hover{
+	background: rgba(230,230,230);
+}
+.simpleButton:active{
+	background: rgba(130,130,130);
+}
+
+
+
+.tdImage{
+	width:19px;
+	height:19px%;
+	display:inline;
+}
+
+th{
+	min-width:100px;
+	text-align: center;
+	height:100%;
+	background: #5050a5;
+	color: white;
+}
+
+td{
+	_min-width:100px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+td.middle{
+	min-width:50px;
+	width: 50px;
+}
+
+.center{
+	text-align: center;
+}
+.width{
+	width:100%;
+}
+.inlineD{
+	display:inline;
+}
+.floatRight{
+	float:right;
+}
+
+
+.tableButton {
+	border: none;
+	background: rgba(10,100,220);
+	color: white;
+	float:left;
+	height: 40px;
+	width: 40px;
+	font-weight: bold;
+	font-size: 30px;
+	text-align:center;
+	vertical-align:middle;
+	margin-right:2px;
+}
+
+.tableButtonImg{
+	width:65%;
+	height:50%;
+}
+
+.tableButton:hover {
+	background: rgba(30,140,250);
+}
+
+.smallIcon{
+	width:20px;
+	height:20px;
+}
+
+input:invalid{
+	border: solid 2px rgba(240,30,30);
+}
