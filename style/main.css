@@ -29,8 +29,8 @@ header{
 
 div.menu{
 	text-align: left;
-	height: 50px;
-	width: 105%;
+	height: 5vh;
+	width: 100vw;
 	background-image: linear-gradient(rgba(45,45,45,1), rgba(30,30,30,1));
 }
 
